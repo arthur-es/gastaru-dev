@@ -40,121 +40,25 @@
         </table>
       </div>
     </div>
-
-    <!-- Card exemplo 1 de um gasto-->
-    <div class="card g-card">
-      <div class="card-body" style="padding-bottom: 0px;">
-        <table class="table">
-          <thead>
-            <tr>
-              <th>04/16 Tue</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="text-left">Education</td>
-              <td class="text-right">-24</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <!-- Card exemplo 2 de um gasto-->
-    <div class="card g-card">
-      <div class="card-body" style="padding-bottom: 0px;">
-        <table class="table">
-          <thead>
-            <tr>
-              <th>04/21 Sun</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="text-left">Car</td>
-              <td class="text-right">-89.2</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-       <!-- Card exemplo 3 de um gasto-->
-       <div class="card g-card">
-          <div class="card-body" style="padding-bottom: 0px;">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th>04/19 Fri</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td class="text-left">Car</td>
-                  <td class="text-right">-50.5</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-
-        <!-- Card exemplo de um gasto-->
-    <div class="card g-card">
-        <div class="card-body" style="padding-bottom: 0px;">
-          <table class="table">
-            <thead>
-              <tr>
-                <th>04/18 Fri</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="text-left">Education</td>
-                <td class="text-right">-24</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <!-- Card exemplo 2 de um gasto-->
+    <div id="cards">
       <div class="card g-card">
         <div class="card-body" style="padding-bottom: 0px;">
           <table class="table">
             <thead>
               <tr>
-                <th>04/02 Tue</th>
+                <th id="cardInfoDay">04/16 Tue</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="text-left">Car</td>
-                <td class="text-right">-89.2</td>
+                <td id="cardInfoMemo" class="text-left">Education</td>
+                <td id="cardInfoValue" class="text-right">-24</td>
               </tr>
             </tbody>
           </table>
         </div>
       </div>
-  
-         <!-- Card exemplo 3 de um gasto-->
-         <div class="card g-card">
-            <div class="card-body" style="padding-bottom: 0px;">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th>04/01 Mon</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="text-left">Car</td>
-                    <td class="text-right">-50.5</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-
-
-    <button type="button" class="btn btn-info btn-circle btn-xl"><i class="fas fa-plus"></i></button>
+    </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -166,6 +70,9 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
   <script src="js/index.js"></script>
+
+  <button type="button" class="btn btn-info btn-circle btn-xl"><i class="fas fa-plus"></i></button>
+
 </body>
 
 </html>
